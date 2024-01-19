@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>TripBoss</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- box icon -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- fonts -->
+    <link rel="stylesheet" href="font/fonts.css" />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/utility.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- header start -->
+    <!-- <header>
+      <div class="container">
+        <div class="logo">
+          <a href="#home">Trip<span>Boss</span></a>
+        </div>
+        <div class="menu" id="menu-icon"><i class="bx bx-menu"></i></div>
+        <div class="close-menu-icon"><i class="bx bx-x"></i></div>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header> -->
+    <!-- header2 Trial Start -->
+    <nav class="navBar">
+      <div class="container flex">
+        <a href="/index.html" class="brand"> Trip<span>Boss</span> </a>
+        <div class="hamburger" id="hamburger"><i class="bx bx-menu"></i></div>
+        <div id="navBar-collapse">
+          <div class="close-navBar">
+            <i class="bx bx-x" id="bx-x"></i>
+          </div>
+          <ul class="navBar-nav">
+            <li class="navBarItem">
+              <a href="./index.html" class="navLink">Home</a>
+            </li>
+            <li class="navBarItem">
+              <a href="./index.html" class="navLink">Gallery</a>
+            </li>
+            <li class="navBarItem">
+              <a href="./index.html" class="navLink">Blog</a>
+            </li>
+            <li class="navBarItem">
+              <a href="./index.html" class="navLink">About</a>
+            </li>
+            <li class="navBarItem">
+              <a href="./index.html" class="navLink">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- header2 Trial End -->
+    <!-- header ends -->
+
+    <!-- hero section start -->
+    <section class="hero center">
+      <div class="wrapper">
+        <h1 class="title">Leave Your Footprints</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aut
+          eius dolores natus saepe, ducimus provident labore corporis sit, ab in
+          consequuntur vero velit
+        </p>
+        <div class="hero-form">
+          <form action="#">
+            <div class="form-title">
+              <h2>Choose your travel location:</h2>
+            </div>
+            <div class="form-input">
+              <input type="text" placeholder="Destination name" required />
+              <input type="date" placeholder="MM/DD/YY" />
+              <input type="number" placeholder="Price ($)" />
+              <button>Search</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- Featured Places Section Start -->
+    <section class="featured-places center">
+      <div class="wrapper">
+        <h3>KNOW ABOUT SOME PLACES BEFORE YOU TRAVEL</h3>
+        <h2>FEATURED PLACES</h2>
+
+        <div class="row-items">
+          <!-- featured place 1 -->
+          <div class="box-card">
+            <img
+              src="./images/featured-reo-de-janeiro-brazil.jpg"
+              alt="Brazil"
+            />
+            <div class="featured-place-description">
+              <div class="title">
+                <div><box-icon type="solid" name="map"></box-icon></div>
+                <h4>Rio De Janeiro, Brazil</h4>
+              </div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                eaque illo quos!
+              </p>
+            </div>
+          </div>
+          <!-- featured place 2 -->
+          <div class="box-card">
+            <img
+              src="./images/featured-north-bondi-australia.jpg"
+              alt="Australia"
+            />
+            <div class="featured-place-description">
+              <div class="title">
+                <div class="bx bxsmap"></div>
+                <h4>North Bondi, Australia</h4>
+              </div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                eaque illo quos!
+              </p>
+            </div>
+          </div>
+          <!-- featured place 3 -->
+          <div class="box-card">
+            <img src="./images/featured-berlin-germany.jpg" alt="Germany" />
+            <div class="featured-place-description">
+              <div class="title">
+                <div class="bx bxsmap"></div>
+                <h4>Berlin, Germany</h4>
+              </div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                eaque illo quos!
+              </p>
+            </div>
+          </div>
+          <!-- featured place 4 -->
+          <div class="box-card">
+            <img
+              src="./images/featured-khwaeng-wat-arun-thailand.jpg"
+              alt="Thailand"
+            />
+            <div class="featured-place-description">
+              <div class="title">
+                <div class="bx bxsmap"></div>
+                <h4>Khwaeng Wat Arun, Thailand</h4>
+              </div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                eaque illo quos!
+              </p>
+            </div>
+          </div>
+          <!-- featured place 5 -->
+          <div class="box-card">
+            <img src="./images/featured-rome-italy.jpg" alt="Italy" />
+            <div class="featured-place-description">
+              <div class="title">
+                <div class="bx bxsmap"></div>
+                <h4>Rome, Italy</h4>
+              </div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                eaque illo quos!
+              </p>
+            </div>
+          </div>
+          <!-- featured place 6 -->
+          <div class="box-card">
+            <img
+              src="./images/featured-fuvahmulah-maldives.jpg"
+              alt="Maldives"
+            />
+            <div class="featured-place-description">
+              <div class="title">
+                <div class="bx bxsmap"></div>
+                <h4>Fuvahmulah, Maldives</h4>
+              </div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                eaque illo quos!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Featured Places Section End -->
+
+    <!-- Services Start -->
+    <section class="services center">
+      <div class="wrapper-outer">
+        <h3>KNOW ABOUT SERVICES THAT WE OFFER</h3>
+        <h2>OUR SERVICES</h2>
+        <div class="service-items">
+          <!-- service item 1 -->
+          <div class="service-item">
+            <!-- TBC -->
+            <div class="icon"></div>
+            <h4>Luxurious Hotel</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+              quae dolorem? Atque libero, minima voluptatum dolore delectus qui
+              sint magnam. Doloribus, deleniti corrupti?
+            </p>
+            <button>Read More</button>
+          </div>
+          <!-- service item 2 -->
+          <div class="service-item">
+            <!-- TBC -->
+            <div class="icon"></div>
+            <h4>Travel Guide</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+              quae dolorem? Atque libero, minima voluptatum dolore delectus qui
+              sint magnam. Doloribus, deleniti corrupti?
+            </p>
+            <button>Read More</button>
+          </div>
+          <!-- service item 3 -->
+          <div class="service-item">
+            <!-- TBC -->
+            <div class="icon"></div>
+            <h4>Suitable Price</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+              quae dolorem? Atque libero, minima voluptatum dolore delectus qui
+              sint magnam. Doloribus, deleniti corrupti?
+            </p>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services End -->
+
+    <!-- Testimonials Start -->
+    <section class="testimonials center">
+      <div class="wrapper-outer">
+        <div class="testimonial-group">
+          <h3>What our clients are saying about us</h3>
+          <h2>TESTIMONIALS</h2>
+          <div class="testimonial">
+            <!-- first testimonial -->
+            <div class="testimony">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+                eligendi sapiente quibusdam! Soluta veritatis alias,
+                dignissimos, nulla expedita eum iusto id obcaecati dolore,
+                distinctio ratione reprehenderit corrupti animi sapiente fuga?
+              </p>
+              <div class="testimony-teller">
+                <div class="profile-pic">
+                  <img src="./images/test-1.jpg" alt="Kevin Wilson" />
+                </div>
+                <div class="profile-details">
+                  <h5 class="profile-name">Kevin Wilson</h5>
+                  <p class="trip-experience">Trip to Brazil</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- second testimonial -->
+            <div class="testimony">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+                eligendi sapiente quibusdam! Soluta veritatis alias,
+                dignissimos, nulla expedita eum iusto id obcaecati dolore,
+                distinctio ratione reprehenderit corrupti animi sapiente fuga?
+              </p>
+              <div class="testimony-teller">
+                <div class="profile-pic">
+                  <img src="./images/test-2.jpg" alt="Kevin Wilson" />
+                </div>
+                <div class="profile-details">
+                  <h5 class="profile-name">Ben Davis</h5>
+                  <p class="trip-experience">Trip to Maldives</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- third testimonial -->
+            <div class="testimony">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+                eligendi sapiente quibusdam! Soluta veritatis alias,
+                dignissimos, nulla expedita eum iusto id obcaecati dolore,
+                distinctio ratione reprehenderit corrupti animi sapiente fuga?
+              </p>
+              <div class="testimony-teller">
+                <div class="profile-pic">
+                  <img src="./images/test-3.jpg" alt="Kevin Wilson" />
+                </div>
+                <div class="profile-details">
+                  <h5 class="profile-name">Jaura Jones</h5>
+                  <p class="trip-experience">Trip to Thailand</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials End -->
+
+    <!-- Video Player Start -->
+    <section class="video-section">
+      <video src="./videos/video-section.mp4" autoplay playsinline></video>
+    </section>
+    <!-- Video Player End -->
+
+    <footer class="footer center">
+      <div class="wrapper">
+        <div class="footer-items">
+          <div class="footer-item">
+            <div class="logo">
+              <a href="#home">Trip<span>Boss</span></a>
+            </div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+            voluptatem, quisquam suscipit aliquid perspiciatis, quam quidem
+            facere non
+          </div>
+
+          <div class="footer-item">
+            <h4>Follow us on:</h4>
+            <span><i class="bx bxl-facebook"></i></span>
+            <span><i class="bx bxl-instagram"></i></span>
+            <span><i class="bx bxl-twitter"></i></span>
+            <span><i class="bx bxl-pinterest"></i></span>
+            <span><i class="bx bxl-google-plus"></i></span>
+          </div>
+
+          <div class="footer-item">
+            <h4>Popular Places:</h4>
+            <ul>
+              <li>Thailand</li>
+              <li>Australia</li>
+              <li>Maldives</li>
+              <li>Switzerland</li>
+              <li>Germany</li>
+            </ul>
+          </div>
+
+          <div class="footer-item">
+            <h4>Subscribe for Newsletter!</h4>
+            <form action="#">
+              <input type="email" placeholder="email" autocomplete="off" />
+              <button>Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="copyright">
+          <h4>
+            EasyPass Software Solutions <span>copyright &copy; 2024</span>
+          </h4>
+        </div>
+      </div>
+    </footer>
+
+    <!-- js -->
+    <script src="js/script.js"></script>
+    <script></script>
+  </body>
+</html>

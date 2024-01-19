@@ -1,0 +1,75 @@
+@media screen and (min-width: 320px) {
+  body {
+    width: 100%;
+  }
+  body > * {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero > .wrapper > p {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .hero > .wrapper > h1 {
+    font-size: 4rem;
+  }
+  .hero > .wrapper > .hero-form > form > .form-input {
+    flex-direction: row;
+  }
+  .hero > .wrapper > .hero-form > form > .form-input > button {
+    margin: 0rem 0.5rem;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  #navBar-collapse {
+    display: block;
+    position: static;
+    transform: translateX(0);
+    width: 100%;
+    background: transparent;
+    padding: 0;
+    height: auto;
+    margin: 0;
+  }
+
+  .bx-x {
+    display: none;
+  }
+
+  .navBar-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+  }
+
+  .navLink {
+    margin: 0;
+    margin-inline-start: 2rem;
+  }
+
+  .navBar-cng .navBar-nav .navLink {
+    color: var(--dark);
+  }
+
+  .featured-places > .wrapper > .row-items {
+    grid-template-columns: repeat(3, minmax(200px, auto));
+  }
+
+  .services > .wrapper-outer > .service-items {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .testimonial {
+    flex-direction: row;
+  }
+
+  .footer-items {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
