@@ -314,7 +314,7 @@ nav > ul > li > a:hover {
 /* Services Start */
 .services {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.95)),
     urL(../images/services-bg.jpg);
   background-repeat: no-repeat;
